@@ -1,0 +1,17 @@
+[build]
+  command = "echo 'No build required'"
+  functions = "netlify/functions"
+  publish = "public"
+
+[build.environment]
+  PYTHON_VERSION = "3.8"
+
+[[redirects]]
+  from = "/webhook"
+  to = "/.netlify/functions/webhook"
+  status = 200
+  
+[[redirects]]
+  from = "/health"
+  to = "/.netlify/functions/health"
+  status = 200
