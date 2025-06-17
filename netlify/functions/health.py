@@ -9,7 +9,7 @@ def handler(event, context):
         },
         'body': json.dumps({
             "status": "healthy",
-            "service": "omi-obsidian-plugin",
+            "service": "omi-obsidian-plugin", 
             "platform": "netlify"
         })
     }
