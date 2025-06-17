@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
         {
-            "src": "api/webhook.py",
+            "src": "api/**/*.py",
             "use": "@vercel/python"
         }
     ],
