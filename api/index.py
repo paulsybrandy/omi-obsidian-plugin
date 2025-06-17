@@ -1,6 +1,3 @@
-# ============================================================================
-# FILE 5: api/index.py
-# ============================================================================
 from http.server import BaseHTTPRequestHandler
 import json
 
@@ -30,4 +27,3 @@ class handler(BaseHTTPRequestHandler):
         }
         
         self.wfile.write(json.dumps(response, indent=2).encode())
-
