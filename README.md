@@ -1,9 +1,4 @@
-# ============================================================================
-# FILE 6: README.md (OPTIONAL BUT HELPFUL)
-# ============================================================================
-# Omi Obsidian Plugin
-
-Voice-activated Obsidian vault search through Omi AI wearable device.
+# Voice-activated Obsidian vault search through Omi AI wearable device.
 
 ## Features
 - 🎙️ Voice-activated search of your Obsidian vault
